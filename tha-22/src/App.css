@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid black; */
+}
+
+
+.App {
+  background-color: rgb(66, 136, 130);
+}
+
+.App h1{
+  text-align: center;
+}
+
+.template {
+  margin-top: 30px;
+  width: 33.333%;
+  display: inline-block;
+  border: 5px solid transparent;
+}
+
+.template .images {
+  border: 1px solid #000;
+  width: 90%;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.memes {
+  text-align: center;
+}
+.memes img{
+  width: auto;
+  height: 350px;
+  border: 1px solid black;
+}
+
+.memes input {
+  margin: 10px; 
+  padding: 5px;
+}
+
+.btn button {
+  padding: 5px;
+  margin: 10px;
+}
+
